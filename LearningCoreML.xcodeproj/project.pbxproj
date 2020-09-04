@@ -10,9 +10,11 @@
 		F0BB32CB2501F85600357C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB32CA2501F85600357C8D /* AppDelegate.swift */; };
 		F0BB32CD2501F85600357C8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB32CC2501F85600357C8D /* SceneDelegate.swift */; };
 		F0BB32CF2501F85600357C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BB32CE2501F85600357C8D /* ViewController.swift */; };
-		F0BB32D22501F85600357C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BB32D02501F85600357C8D /* Main.storyboard */; };
 		F0BB32D42501F85700357C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BB32D32501F85700357C8D /* Assets.xcassets */; };
 		F0BB32D72501F85700357C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BB32D52501F85700357C8D /* LaunchScreen.storyboard */; };
+		F0BB32DF2501F89E00357C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BB32DE2501F89E00357C8D /* Main.storyboard */; };
+		F0BB32E12501F8CC00357C8D /* GarbageDetection3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0BB32E02501F8CC00357C8D /* GarbageDetection3.mlmodel */; };
+		F0BB32E32501F8E000357C8D /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F0BB32E22501F8E000357C8D /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +22,12 @@
 		F0BB32CA2501F85600357C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BB32CC2501F85600357C8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F0BB32CE2501F85600357C8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F0BB32D12501F85600357C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0BB32D32501F85700357C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0BB32D62501F85700357C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BB32D82501F85700357C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BB32DE2501F89E00357C8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F0BB32E02501F8CC00357C8D /* GarbageDetection3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GarbageDetection3.mlmodel; sourceTree = "<group>"; };
+		F0BB32E22501F8E000357C8D /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				F0BB32CA2501F85600357C8D /* AppDelegate.swift */,
 				F0BB32CC2501F85600357C8D /* SceneDelegate.swift */,
+				F0BB32DE2501F89E00357C8D /* Main.storyboard */,
 				F0BB32CE2501F85600357C8D /* ViewController.swift */,
-				F0BB32D02501F85600357C8D /* Main.storyboard */,
+				F0BB32E02501F8CC00357C8D /* GarbageDetection3.mlmodel */,
+				F0BB32E22501F8E000357C8D /* Resnet50.mlmodel */,
 				F0BB32D32501F85700357C8D /* Assets.xcassets */,
 				F0BB32D52501F85700357C8D /* LaunchScreen.storyboard */,
 				F0BB32D82501F85700357C8D /* Info.plist */,
@@ -125,9 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BB32DF2501F89E00357C8D /* Main.storyboard in Resources */,
 				F0BB32D72501F85700357C8D /* LaunchScreen.storyboard in Resources */,
 				F0BB32D42501F85700357C8D /* Assets.xcassets in Resources */,
-				F0BB32D22501F85600357C8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0BB32E32501F8E000357C8D /* Resnet50.mlmodel in Sources */,
+				F0BB32E12501F8CC00357C8D /* GarbageDetection3.mlmodel in Sources */,
 				F0BB32CF2501F85600357C8D /* ViewController.swift in Sources */,
 				F0BB32CB2501F85600357C8D /* AppDelegate.swift in Sources */,
 				F0BB32CD2501F85600357C8D /* SceneDelegate.swift in Sources */,
@@ -147,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F0BB32D02501F85600357C8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0BB32D12501F85600357C8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0BB32D52501F85700357C8D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
