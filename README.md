@@ -9,8 +9,10 @@ Learning CoreML
 ## How to build
 
 ## How to use
-XML TO JSON : <a href="https://github.com/drawrs/CoreMLAnnotationJsonGeneratorWithPHP" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/github.svg" height="20" /></a>&nbsp;
-LABELING IMAGE : <a href="https://github.com/tzutalin/labelImg" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.4.0/icons/github.svg" height="20" /></a>&nbsp;
+
+Converter by [XML TO JSON](https://github.com/drawrs/CoreMLAnnotationJsonGeneratorWithPHP).
+
+LABEL IMAGE by [LABEL IMAGE](https://github.com/tzutalin/labelImg).
 
 ## Known Issues
 
